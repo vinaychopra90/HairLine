@@ -1,0 +1,563 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 48;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		8CC284492045B00F007D6DEC /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8CC284482045B00F007D6DEC /* AppDelegate.swift */; };
+		8CC2844B2045B00F007D6DEC /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8CC2844A2045B00F007D6DEC /* ViewController.swift */; };
+		8CC2844E2045B00F007D6DEC /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 8CC2844C2045B00F007D6DEC /* Main.storyboard */; };
+		8CC284502045B00F007D6DEC /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 8CC2844F2045B00F007D6DEC /* Assets.xcassets */; };
+		8CC284532045B00F007D6DEC /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 8CC284512045B00F007D6DEC /* LaunchScreen.storyboard */; };
+		8CC2845E2045B010007D6DEC /* HairLineTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8CC2845D2045B010007D6DEC /* HairLineTests.swift */; };
+		8CC284692045B010007D6DEC /* HairLineUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8CC284682045B010007D6DEC /* HairLineUITests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		8CC2845A2045B010007D6DEC /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 8CC2843D2045B00F007D6DEC /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 8CC284442045B00F007D6DEC;
+			remoteInfo = HairLine;
+		};
+		8CC284652045B010007D6DEC /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 8CC2843D2045B00F007D6DEC /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 8CC284442045B00F007D6DEC;
+			remoteInfo = HairLine;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		8CC284452045B00F007D6DEC /* HairLine.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = HairLine.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		8CC284482045B00F007D6DEC /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		8CC2844A2045B00F007D6DEC /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		8CC2844D2045B00F007D6DEC /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		8CC2844F2045B00F007D6DEC /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		8CC284522045B00F007D6DEC /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		8CC284542045B00F007D6DEC /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		8CC284592045B010007D6DEC /* HairLineTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = HairLineTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		8CC2845D2045B010007D6DEC /* HairLineTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HairLineTests.swift; sourceTree = "<group>"; };
+		8CC2845F2045B010007D6DEC /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		8CC284642045B010007D6DEC /* HairLineUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = HairLineUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		8CC284682045B010007D6DEC /* HairLineUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HairLineUITests.swift; sourceTree = "<group>"; };
+		8CC2846A2045B010007D6DEC /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		8CC284422045B00F007D6DEC /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8CC284562045B010007D6DEC /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8CC284612045B010007D6DEC /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		8CC2843C2045B00F007D6DEC = {
+			isa = PBXGroup;
+			children = (
+				8CC284472045B00F007D6DEC /* HairLine */,
+				8CC2845C2045B010007D6DEC /* HairLineTests */,
+				8CC284672045B010007D6DEC /* HairLineUITests */,
+				8CC284462045B00F007D6DEC /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		8CC284462045B00F007D6DEC /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				8CC284452045B00F007D6DEC /* HairLine.app */,
+				8CC284592045B010007D6DEC /* HairLineTests.xctest */,
+				8CC284642045B010007D6DEC /* HairLineUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		8CC284472045B00F007D6DEC /* HairLine */ = {
+			isa = PBXGroup;
+			children = (
+				8CC284482045B00F007D6DEC /* AppDelegate.swift */,
+				8CC2844A2045B00F007D6DEC /* ViewController.swift */,
+				8CC2844C2045B00F007D6DEC /* Main.storyboard */,
+				8CC2844F2045B00F007D6DEC /* Assets.xcassets */,
+				8CC284512045B00F007D6DEC /* LaunchScreen.storyboard */,
+				8CC284542045B00F007D6DEC /* Info.plist */,
+			);
+			path = HairLine;
+			sourceTree = "<group>";
+		};
+		8CC2845C2045B010007D6DEC /* HairLineTests */ = {
+			isa = PBXGroup;
+			children = (
+				8CC2845D2045B010007D6DEC /* HairLineTests.swift */,
+				8CC2845F2045B010007D6DEC /* Info.plist */,
+			);
+			path = HairLineTests;
+			sourceTree = "<group>";
+		};
+		8CC284672045B010007D6DEC /* HairLineUITests */ = {
+			isa = PBXGroup;
+			children = (
+				8CC284682045B010007D6DEC /* HairLineUITests.swift */,
+				8CC2846A2045B010007D6DEC /* Info.plist */,
+			);
+			path = HairLineUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		8CC284442045B00F007D6DEC /* HairLine */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 8CC2846D2045B010007D6DEC /* Build configuration list for PBXNativeTarget "HairLine" */;
+			buildPhases = (
+				8CC284412045B00F007D6DEC /* Sources */,
+				8CC284422045B00F007D6DEC /* Frameworks */,
+				8CC284432045B00F007D6DEC /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = HairLine;
+			productName = HairLine;
+			productReference = 8CC284452045B00F007D6DEC /* HairLine.app */;
+			productType = "com.apple.product-type.application";
+		};
+		8CC284582045B010007D6DEC /* HairLineTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 8CC284702045B010007D6DEC /* Build configuration list for PBXNativeTarget "HairLineTests" */;
+			buildPhases = (
+				8CC284552045B010007D6DEC /* Sources */,
+				8CC284562045B010007D6DEC /* Frameworks */,
+				8CC284572045B010007D6DEC /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				8CC2845B2045B010007D6DEC /* PBXTargetDependency */,
+			);
+			name = HairLineTests;
+			productName = HairLineTests;
+			productReference = 8CC284592045B010007D6DEC /* HairLineTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		8CC284632045B010007D6DEC /* HairLineUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 8CC284732045B010007D6DEC /* Build configuration list for PBXNativeTarget "HairLineUITests" */;
+			buildPhases = (
+				8CC284602045B010007D6DEC /* Sources */,
+				8CC284612045B010007D6DEC /* Frameworks */,
+				8CC284622045B010007D6DEC /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				8CC284662045B010007D6DEC /* PBXTargetDependency */,
+			);
+			name = HairLineUITests;
+			productName = HairLineUITests;
+			productReference = 8CC284642045B010007D6DEC /* HairLineUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		8CC2843D2045B00F007D6DEC /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0920;
+				LastUpgradeCheck = 0920;
+				ORGANIZATIONNAME = "Vinay Chopra";
+				TargetAttributes = {
+					8CC284442045B00F007D6DEC = {
+						CreatedOnToolsVersion = 9.2;
+						ProvisioningStyle = Automatic;
+					};
+					8CC284582045B010007D6DEC = {
+						CreatedOnToolsVersion = 9.2;
+						ProvisioningStyle = Automatic;
+						TestTargetID = 8CC284442045B00F007D6DEC;
+					};
+					8CC284632045B010007D6DEC = {
+						CreatedOnToolsVersion = 9.2;
+						ProvisioningStyle = Automatic;
+						TestTargetID = 8CC284442045B00F007D6DEC;
+					};
+				};
+			};
+			buildConfigurationList = 8CC284402045B00F007D6DEC /* Build configuration list for PBXProject "HairLine" */;
+			compatibilityVersion = "Xcode 8.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 8CC2843C2045B00F007D6DEC;
+			productRefGroup = 8CC284462045B00F007D6DEC /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				8CC284442045B00F007D6DEC /* HairLine */,
+				8CC284582045B010007D6DEC /* HairLineTests */,
+				8CC284632045B010007D6DEC /* HairLineUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		8CC284432045B00F007D6DEC /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8CC284532045B00F007D6DEC /* LaunchScreen.storyboard in Resources */,
+				8CC284502045B00F007D6DEC /* Assets.xcassets in Resources */,
+				8CC2844E2045B00F007D6DEC /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8CC284572045B010007D6DEC /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8CC284622045B010007D6DEC /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		8CC284412045B00F007D6DEC /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8CC2844B2045B00F007D6DEC /* ViewController.swift in Sources */,
+				8CC284492045B00F007D6DEC /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8CC284552045B010007D6DEC /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8CC2845E2045B010007D6DEC /* HairLineTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8CC284602045B010007D6DEC /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8CC284692045B010007D6DEC /* HairLineUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		8CC2845B2045B010007D6DEC /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 8CC284442045B00F007D6DEC /* HairLine */;
+			targetProxy = 8CC2845A2045B010007D6DEC /* PBXContainerItemProxy */;
+		};
+		8CC284662045B010007D6DEC /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 8CC284442045B00F007D6DEC /* HairLine */;
+			targetProxy = 8CC284652045B010007D6DEC /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		8CC2844C2045B00F007D6DEC /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				8CC2844D2045B00F007D6DEC /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		8CC284512045B00F007D6DEC /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				8CC284522045B00F007D6DEC /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		8CC2846B2045B010007D6DEC /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.2;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		8CC2846C2045B010007D6DEC /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		8CC2846E2045B010007D6DEC /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 93Y78S8G72;
+				INFOPLIST_FILE = HairLine/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.vc.HairLine;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		8CC2846F2045B010007D6DEC /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 93Y78S8G72;
+				INFOPLIST_FILE = HairLine/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.vc.HairLine;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		8CC284712045B010007D6DEC /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 93Y78S8G72;
+				INFOPLIST_FILE = HairLineTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.vc.HairLineTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/HairLine.app/HairLine";
+			};
+			name = Debug;
+		};
+		8CC284722045B010007D6DEC /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 93Y78S8G72;
+				INFOPLIST_FILE = HairLineTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.vc.HairLineTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/HairLine.app/HairLine";
+			};
+			name = Release;
+		};
+		8CC284742045B010007D6DEC /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 93Y78S8G72;
+				INFOPLIST_FILE = HairLineUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.vc.HairLineUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = HairLine;
+			};
+			name = Debug;
+		};
+		8CC284752045B010007D6DEC /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 93Y78S8G72;
+				INFOPLIST_FILE = HairLineUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.vc.HairLineUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = HairLine;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		8CC284402045B00F007D6DEC /* Build configuration list for PBXProject "HairLine" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				8CC2846B2045B010007D6DEC /* Debug */,
+				8CC2846C2045B010007D6DEC /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		8CC2846D2045B010007D6DEC /* Build configuration list for PBXNativeTarget "HairLine" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				8CC2846E2045B010007D6DEC /* Debug */,
+				8CC2846F2045B010007D6DEC /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		8CC284702045B010007D6DEC /* Build configuration list for PBXNativeTarget "HairLineTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				8CC284712045B010007D6DEC /* Debug */,
+				8CC284722045B010007D6DEC /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		8CC284732045B010007D6DEC /* Build configuration list for PBXNativeTarget "HairLineUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				8CC284742045B010007D6DEC /* Debug */,
+				8CC284752045B010007D6DEC /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 8CC2843D2045B00F007D6DEC /* Project object */;
+}
