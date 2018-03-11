@@ -8,7 +8,7 @@ Hairline draws crisp separators in Tableview / Collection View or NavigationBar 
 DESC
 
 s.homepage         = 'https://github.com/vinaychopra90/HairLine'
-s.license          = { :type => 'MIT', :file => 'LICENSE' }
+s.license          = { :type => 'MIT', :file => 'LICENSE.md' }
 s.author           = { '<Vinay Chopra>' => '<vinaychopra90@gmail.com>' }
 s.source           = { :git => 'https://github.com/vinaychopra90/HairLine.git', :tag => s.version.to_s }
 s.swift_version    = '3.2'
