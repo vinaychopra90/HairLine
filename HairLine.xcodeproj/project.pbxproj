@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		8C7414832045BA1600BD70BA /* HairLine.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8C7414822045BA1600BD70BA /* HairLine.swift */; };
 		8CC284492045B00F007D6DEC /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8CC284482045B00F007D6DEC /* AppDelegate.swift */; };
 		8CC2844B2045B00F007D6DEC /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8CC2844A2045B00F007D6DEC /* ViewController.swift */; };
 		8CC2844E2045B00F007D6DEC /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 8CC2844C2045B00F007D6DEC /* Main.storyboard */; };
@@ -34,6 +35,7 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		8C7414822045BA1600BD70BA /* HairLine.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HairLine.swift; sourceTree = "<group>"; };
 		8CC284452045B00F007D6DEC /* HairLine.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = HairLine.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		8CC284482045B00F007D6DEC /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		8CC2844A2045B00F007D6DEC /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -77,6 +79,7 @@
 		8CC2843C2045B00F007D6DEC = {
 			isa = PBXGroup;
 			children = (
+				8C7414822045BA1600BD70BA /* HairLine.swift */,
 				8CC284472045B00F007D6DEC /* HairLine */,
 				8CC2845C2045B010007D6DEC /* HairLineTests */,
 				8CC284672045B010007D6DEC /* HairLineUITests */,
@@ -261,6 +264,7 @@
 			files = (
 				8CC2844B2045B00F007D6DEC /* ViewController.swift in Sources */,
 				8CC284492045B00F007D6DEC /* AppDelegate.swift in Sources */,
+				8C7414832045BA1600BD70BA /* HairLine.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -429,6 +433,7 @@
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = 93Y78S8G72;
 				INFOPLIST_FILE = HairLine/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.vc.HairLine;
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -444,6 +449,7 @@
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = 93Y78S8G72;
 				INFOPLIST_FILE = HairLine/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.vc.HairLine;
 				PRODUCT_NAME = "$(TARGET_NAME)";
