@@ -105,7 +105,6 @@
 				8CC2844C2045B00F007D6DEC /* Main.storyboard */,
 				8CC2844F2045B00F007D6DEC /* Assets.xcassets */,
 				8CC284512045B00F007D6DEC /* LaunchScreen.storyboard */,
-				8CC284542045B00F007D6DEC /* Info.plist */,
 			);
 			path = HairLineDemo;
 			sourceTree = "<group>";
@@ -132,6 +131,7 @@
 			isa = PBXGroup;
 			children = (
 				8C7414822045BA1600BD70BA /* HairLine.swift */,
+				8CC284542045B00F007D6DEC /* Info.plist */,
 			);
 			path = HairLine;
 			sourceTree = "<group>";
@@ -445,7 +445,7 @@
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.vc.HairLine;
 				PRODUCT_NAME = "$(TARGET_NAME)";
-				SWIFT_VERSION = 4.0;
+				SWIFT_VERSION = 3.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
 			name = Debug;
@@ -461,7 +461,7 @@
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.vc.HairLine;
 				PRODUCT_NAME = "$(TARGET_NAME)";
-				SWIFT_VERSION = 4.0;
+				SWIFT_VERSION = 3.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
 			name = Release;
