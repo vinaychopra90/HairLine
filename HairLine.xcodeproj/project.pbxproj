@@ -80,7 +80,6 @@
 			isa = PBXGroup;
 			children = (
 				8CDF6F4B20552F3F004AEE6E /* HairLine */,
-				8CC284472045B00F007D6DEC /* HairLineDemo */,
 				8CC2845C2045B010007D6DEC /* HairLineTests */,
 				8CC284672045B010007D6DEC /* HairLineUITests */,
 				8CC284462045B00F007D6DEC /* Products */,
@@ -131,6 +130,7 @@
 			isa = PBXGroup;
 			children = (
 				8C7414822045BA1600BD70BA /* HairLine.swift */,
+				8CC284472045B00F007D6DEC /* HairLineDemo */,
 				8CC284542045B00F007D6DEC /* Info.plist */,
 			);
 			path = HairLine;
